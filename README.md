@@ -35,23 +35,6 @@ Output the digital right triangle as required by the title.
 
 The data is guaranteed to satisfy $1\le n\le13$.
 
-**翻译说明：**
-
-* **Deep Foundation 4. Example 6:**  直接音译，表示这是深基4模块中的第6个例子。
-* **Digital Right Triangle:** 数字直角三角形
-* **Side length:** 边长
-* **Leading 0:** 前导0（即在数字前面补0）
-
-**其他说明：**
-
-* 题目要求输出一个由数字组成的直角三角形，每行数字的个数依次递增。
-* 每个数字都用两位数表示，不足两位的前面补0。
-* 输入的n表示三角形的一条直角边的长度。
-
-**希望这个翻译对你有帮助！** 
-
-**如果你还有其他问题，欢迎随时提出。**
-
 # 【深基4.例6】数字直角三角形
 
 ## 题目描述
@@ -87,3 +70,5 @@ The data is guaranteed to satisfy $1\le n\le13$.
 ## 提示
 
 数据保证，$1\le n\le13$。
+set fill （“0”）用于在没有两个数字时填充0.
+setw（2）用于保证输出的只用两个数字
